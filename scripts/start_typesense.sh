@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exec /opt/typesense-server --api-address 0.0.0.0 --api-port 8118
+exec /opt/typesense-server --api-address 0.0.0.0 --api-port 8118 --reset-peers-on-error=true
